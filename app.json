@@ -17,7 +17,7 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "package": "nl.faanveldhuijsen.peptaskpro"
+      "package": "com.lfaoanl.peptaskpro"
     },
     "web": {
       "bundler": "metro",
