@@ -1,8 +1,8 @@
+import useTasks, { Task } from '@/hooks/useTasks';
 import { MaterialIcons } from '@expo/vector-icons';
 import Checkbox from 'expo-checkbox';
 import React, { useState } from 'react';
 import { Alert, FlatList, Platform, StyleSheet, Text, TextInput, TouchableOpacity, View } from 'react-native';
-import { Task, useTasks } from './hooks/useTasks';
 
 const TasksScreen = () => {
     const [task, setTask] = useState('');

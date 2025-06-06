@@ -10,7 +10,7 @@ export interface Task {
 
 const STORAGE_KEY = 'TASKS';
 
-export function useTasks() {
+export default function useTasks() {
     const [tasks, setTasks] = useState<Task[]>([]);
 
     useEffect(() => {
